@@ -20,7 +20,7 @@ link_busca_1 = "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura
 link_busca_2 = "/2030402020/11/candidatos"
 
 with requests.Session() as s:
-    for i in range(220,230):
+    for i in range(len(candidatos)):
 
         print(i)
 
